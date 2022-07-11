@@ -1,0 +1,101 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Balsamiq+Sans&display=swap');
+:root{
+    --main-bg-color: #0ad5fe;
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+nav ul{
+    display: flex;
+    justify-content: flex-start;
+    height: 40px;
+    align-items: center;
+}
+header{
+    background: var(--main-bg-color);
+    
+    
+}
+.search{
+    width: 600px;
+    display: flex;
+    align-items: center;
+ 
+}
+.search input{
+    width: 30vw;
+    height: 23px;
+    border-radius: 4px;
+    margin: 5px;
+    padding:0 12px;
+}
+.container{
+    min-height: 81vh;
+  
+}
+.slider{
+    display: flex;
+    justify-content: center;
+   margin: 12px 150px;
+   overflow: hidden;
+   
+
+}
+.card{
+    max-width: 91vw;
+    margin: auto;
+    border: 1px solid whitesmoke
+}
+.card-item{
+    display: inline-flex ;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0px 50px;
+   
+}
+.imgcard:hover{
+    width: 154px;
+}
+.cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    overflow: scroll;
+}
+.card h2{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+footer{
+    background-color: var(--main-bg-color);
+    height: 12vh;
+    color:white;
+    font-family: 'Balsamiq Sans', cursive;
+   
+}
+nav ul li{
+    list-style: none;
+    display: inline;
+    padding: 0px 23px;
+}
+nav ul li a{
+    color:white;
+     text-decoration: none;            /* to remove the underline in the link */
+}
+nav ul li a:hover{                  /* when you take the cursor in the home button etc it will change*/
+   color: rgb(3, 64, 163);
+   font-weight: bold;
+}
+nav{
+    display: flex;
+  
+}
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:5px;
+
+}
